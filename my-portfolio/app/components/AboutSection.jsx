@@ -9,13 +9,13 @@ const tab_data = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>React</li>
-        <li>React</li>
-        <li>React</li>
-        <li>React</li>
-        <li>React</li>
-        <li>React</li>
-        <li>React</li>
+        <li>HTML, CSS, JAVASCRIPT</li>
+        <li>REACT JS, NODE JS, EXPRESS JS, MONGODB </li>
+        <li>NEXT JS</li>
+        <li>Tailwind css, Material ui</li>
+        <li>firebase</li>
+        <li>Redux, Redux toolkit</li>
+        <li>Git & GitHub</li>
       </ul>
     ),
   },
@@ -24,8 +24,8 @@ const tab_data = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>React</li>
-        <li>React</li>
+        <li>Software Engineer</li>
+        <li>Full-stack web developer</li>
       </ul>
     ),
   },
@@ -34,9 +34,9 @@ const tab_data = [
     id: "certificates",
     content: (
       <ul className="list-disc pl-2">
-        <li>React</li>
-        <li>React</li>
-        <li>React</li>
+        <li>Bachelors of Software Engineering</li>
+        <li>Front-end web development by meta</li>
+        <li>Full-stack web development</li>
       </ul>
     ),
   },
@@ -59,10 +59,12 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h1 className="text-4xl font-bold text-white my-4">About Me</h1>
           <p className="text-justify text-base lg:text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora,
-            reiciendis nesciunt. Dolore voluptatibus, quas molestiae odio enim
-            assumenda quibusdam, doloribus, nesciunt laboriosam odit laudantium
-            harum sit repudiandae officiis nisi perferendis.
+            Enthusiastic software engineer and recent Jain University graduate
+            based in Bangalore, India, with a strong background in full-stack
+            web development. Dedicated to clean code practices and always eager
+            to learn, I am ready to contribute effectively to a development
+            team. Excited about taking on challenges and fostering professional
+            growth in a collaborative work setting.
           </p>
           <div className="flex flex-row mt-8">
             <TabButton
